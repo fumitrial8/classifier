@@ -4,3 +4,4 @@
 credential.py
 .vscode/
 __pycache__/
+.npy
