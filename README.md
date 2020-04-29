@@ -12,13 +12,14 @@ CNNを使った画像分類機
  
 # Requirement
  
-## scraping.py
 python==3.7.7
+
+numpy==1.18.2
 urllib3==1.25.9
 beautifulsoup4==4.9.0
 flickrapi==2.4.0
- 
-## run.py
+sklearn==0.0
+Pillow== 7.0.0
 
 # Installation
  

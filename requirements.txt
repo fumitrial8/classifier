@@ -1,3 +1,6 @@
 urllib3==1.25.9
 beautifulsoup4==4.9.0
 flickrapi==2.4.0
+sklearn==0.0
+Pillow== 7.0.0
+numpy==1.18.2
