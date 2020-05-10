@@ -136,8 +136,10 @@ config:
       dtype: float32
       name: max_pooling2d_2
       padding: valid
-      pool_size: *id002
-      strides: *id002
+      pool_size: &id003 !!python/tuple
+      - 2
+      - 2
+      strides: *id003
       trainable: true
   - class_name: Dropout
     config:
@@ -211,7 +213,7 @@ config:
       kernel_regularizer: null
       name: dense_2
       trainable: true
-      units: 5
+      units: 20
       use_bias: true
   - class_name: Activation
     config:
